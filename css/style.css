@@ -17,6 +17,14 @@ body {
 .navbar-nav li .nav-link.active {
   --bs-navbar-active-color: #dda686;
 }
+/* .navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.header-fix {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+} */
 .gradiant {
   font-size: 30px;
   background: -webkit-linear-gradient(#dda686, #ffffff);
@@ -50,4 +58,30 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+.skill-items .item {
+  padding: 45px 35px;
+  border-radius: 100px;
+  margin: 0 10px;
+  transition: all 0.4s;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.skill-items .item:hover {
+  transform: scale(1.15);
+  border: 1px solid #dda686;
+  color: #dda686;
+}
+form .form-control {
+  background: transparent;
+  border: 1px solid #4f4e4f;
+  padding: 15px;
+}
+form .form-control::placeholder {
+  color: #4f4e4f;
+}
+.form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border-color: #dda686;
 }
