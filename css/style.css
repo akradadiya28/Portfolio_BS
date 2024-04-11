@@ -1,0 +1,53 @@
+body {
+  background-color: #1a1a1a;
+}
+:root {
+  --bs-font-sans-serif: "Epilogue";
+}
+.fs-6 {
+  font-size: 13px !important;
+  letter-spacing: 1px;
+}
+.btn-light {
+  --bs-btn-color: #1a1a1a;
+  --bs-btn-hover-bg: #1a1a1a;
+  --bs-btn-hover-color: #dda686;
+  --bs-btn-hover-border-color: #dda686;
+}
+.navbar-nav li .nav-link.active {
+  --bs-navbar-active-color: #dda686;
+}
+.gradiant {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#dda686, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header {
+  box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 1px,
+    rgba(255, 255, 255, 0.23) 0px 1px 1px;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 30%;
+  height: 750px;
+  bottom: 0;
+  width: 40%;
+  background-image: url("../images/dots.png");
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+.l-s {
+  letter-spacing: 1px;
+}
+.img-box {
+  width: 100%;
+  height: auto;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
