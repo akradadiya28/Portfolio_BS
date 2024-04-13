@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/loader.css">
     <!-- headline css -->
     <link rel="stylesheet" href="css/headline.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,13 +41,13 @@
         </div>
     </div>
     <!-- loader -->
-    <!-- <div class="preloader-container">
+    <div class="preloader-container">
         <div class="preloader-text text-light">
             <span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>...</span>
         </div>
-    </div> -->
+    </div>
     <!-- contact bar -->
-    <div class="contact-bar d-inline-block position-fixed end-0 me-2 top-50 d-none d-md-block"
+    <div class="contact-bar d-inline-block position-fixed end-0 me-2 top-50 d-none d-lg-block"
         style="border-radius: 50px;transform: translateY(-50%);">
         <ul class="py-4 px-2 m-0 list-unstyled">
             <li>
@@ -187,16 +189,15 @@
         </section>
         <!-- About -->
         <section class="about" style="padding: 90px 0 90px 0;" id="about">
-            <div class="container"> 
+            <div class="container">
                 <div class="row">
-                    <div class="col-12 col-xl-4 d-flex align-items-center position-relative order-first">
-                        <div class="item" id="particles-js">
-                            <h4 style="font-size: 6.25rem;color: transparent;-webkit-text-stroke: 1px #fff;">About
-                            </h4>
+                    <div class="col-12 col-xl-4 d-flex align-items-center position-relative">
+                        <div class="item" id="particles-js" data-aos="zoom-in">
+                            <h4>About</h4>
                         </div>
                     </div>
                     <div class="col-12 col-xl-8">
-                        <p class="text-light" style="margin-top: 70px;">
+                        <p class="text-light" style="margin-top: 70px;" data-aos="zoom-in-up">
                             <span class="fs-5" style="color: #dda686;">Background Information</span> <br><br>
                             I am a passionate backend developer with expertise in HTML5, CSS3, Media Query, SASS,
                             jQuery, C, C++, and DSA. With a strong educational background in back-end web development
@@ -227,7 +228,7 @@
                 <div class="row">
                     <div class="col-12 col-xxl-8 d-flex flex-wrap">
                         <div class="col-lg-6 p-2">
-                            <div class="card border-0" style="width: 100%;">
+                            <div class="card border-0" style="width: 100%;" data-aos="flip-up">
                                 <a href="images/cssss.png" data-fancybox="gallery">
                                     <img src="images/css.png" class="card-img-top rounded" alt="...">
                                 </a>
@@ -240,7 +241,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-2">
-                            <div class="card border-0" style="width: 100%;">
+                            <div class="card border-0" style="width: 100%;" data-aos="flip-right">
                                 <a href="images/mqq.png" data-fancybox="gallery">
                                     <img src="images/mq.png" class="card-img-top rounded" alt="...">
                                 </a>
@@ -253,7 +254,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-2">
-                            <div class="card border-0" style="width: 100%;">
+                            <div class="card border-0" style="width: 100%;" data-aos="flip-left">
                                 <a href="images/sasss.png" data-fancybox="gallery">
                                     <img src="images/sass.png" class="card-img-top rounded" alt="...">
                                 </a>
@@ -266,7 +267,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-2">
-                            <div class="card border-0" style="width: 100%;">
+                            <div class="card border-0" style="width: 100%;" data-aos="flip-down">
                                 <a href="images/app.png" data-fancybox="gallery">
                                     <img src="images/admin panel.png" class="card-img-top rounded" alt="...">
                                 </a>
@@ -279,10 +280,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-xxl-4 d-flex align-items-center position-relative order-first">
-                        <div class="item" id="particles-js1">
-                            <h4 style="font-size: 6.25rem;color: transparent;-webkit-text-stroke: 1px #fff;">Projects
-                            </h4>
+                    <div
+                        class="col-12 col-xxl-4 d-flex align-items-center position-relative order-sm-first order-xxl-last">
+                        <div class="item" id="particles-js1" data-aos="zoom-in">
+                            <h4>Projects</h4>
                         </div>
                     </div>
                 </div>
@@ -293,15 +294,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-4 d-flex align-items-center position-relative">
-                        <div class="item" id="particles-js2">
-                            <h4 style=" font-size: 100px;color: transparent;-webkit-text-stroke: 1px #fff;">Skills
-                            </h4>
+                        <div class="item" id="particles-js2" data-aos="zoom-in">
+                            <h4>Skills</h4>
                         </div>
                     </div>
                     <div class="col-12 col-lg-8">
                         <div class="skill-items d-flex flex-wrap">
                             <div class="col-4">
-                                <div class="item d-inline-block text-center">
+                                <div class="item d-inline-block text-center" data-aos="zoom-in-up">
                                     <div class="skill-img mb-3">
                                         <img src="images/c-original.svg" alt="" width="60px" height="60px">
                                     </div>
@@ -309,7 +309,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="item d-inline-block text-center">
+                                <div class="item d-inline-block text-center" data-aos="zoom-in-down">
                                     <div class="skill-img mb-3">
                                         <img src="images/cplusplus-original.svg" alt="" width="60px" height="60px">
                                     </div>
@@ -317,7 +317,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="item d-inline-block text-center">
+                                <div class="item d-inline-block text-center" data-aos="zoom-in-up">
                                     <div class="skill-img mb-3">
                                         <img src="images/HTML5_badge.png" alt="" width="60px" height="60px">
                                     </div>
@@ -325,7 +325,7 @@
                                 </div>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
-                                <div class="item d-inline-block text-center">
+                                <div class="item d-inline-block text-center" data-aos="zoom-in-left">
                                     <div class="skill-img mb-3">
                                         <img src="images/css3-icon-28.jpg" alt="" width="60px" height="60px">
                                     </div>
@@ -333,7 +333,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="item d-inline-block text-center">
+                                <div class="item d-inline-block text-center" data-aos="zoom-in-right">
                                     <div class="skill-img mb-3">
                                         <img src="images/sass-original.svg" alt="" width="60px" height="60px">
                                     </div>
@@ -342,7 +342,7 @@
                             </div>
                             <div class="col-4"></div>
                             <div class="col-4">
-                                <div class="item d-inline-block text-center">
+                                <div class="item d-inline-block text-center" data-aos="zoom-in-down">
                                     <div class="skill-img mb-3">
                                         <img src="images/bootstrap-logo.png" alt="" width="60px" height="60px">
                                     </div>
@@ -360,7 +360,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <form class="row g-3 text-light">
+                        <form class="row g-3 text-light" data-aos="fade-down-right">
                             <div class="col-md-6">
                                 <input type="text" class="form-control mb-3" placeholder="Name" aria-label="First name">
                             </div>
@@ -382,10 +382,10 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-12 col-lg-4 d-flex align-items-center position-relative order-first">
-                        <div class="item" id="particles-js3">
-                            <h4 style=" font-size: 100px;color: transparent;-webkit-text-stroke: 1px #fff;">Contact
-                            </h4>
+                    <div
+                        class="col-12 col-lg-4 d-flex align-items-center position-relative order-sm-first order-lg-last">
+                        <div class="item con-med" id="particles-js3" data-aos="zoom-in">
+                            <h4>Contact</h4>
                         </div>
                     </div>
                 </div>
@@ -418,6 +418,11 @@
     <script src="js/app.js"></script>
     <!-- headline js -->
     <script src="js/main.js"></script>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

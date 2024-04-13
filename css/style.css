@@ -71,6 +71,11 @@ body {
   height: 100%;
   overflow: hidden;
 }
+.item h4 {
+  font-size: 6.25rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
 .skill-items .item {
   padding: 45px 35px;
   border-radius: 100px;
@@ -164,4 +169,26 @@ canvas {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/* media query */
+@media (min-width: 576px) {
+  .con-med h4 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  .con-med h4 {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 576px) {
+  .item h4 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .item h4 {
+    font-size: 6.25rem;
+  }
 }
